@@ -22,7 +22,7 @@ if (firstDate === null || secondDate === null ||
     }
 }
 else {
-    if (firstDate === ' ') {
+    if (firstDate === '' || firstDate.includes(' ')) {
         confirm('Your enter blank, it will be equal to 0')
         {
             if (Number.isNaN(firstNumber)) {
